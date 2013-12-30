@@ -1,0 +1,9 @@
+---
+# This playbook sets up a Raspberry Pi for ad blocking
+- name: raspberry pi adblock
+  hosts: adblock
+  user: nlopez
+  sudo: yes
+
+  roles:
+    - adblock
